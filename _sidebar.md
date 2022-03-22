@@ -4,6 +4,7 @@
 
   - [生信数据库](/toolsCollection/bio_databases)
   - [生信论坛](/toolsCollection/bio_forums)
+  - [生信博客](/toolsCollection/bio_blogs)
 
 - 生信基础知识
 
