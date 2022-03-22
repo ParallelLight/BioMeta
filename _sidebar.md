@@ -3,7 +3,7 @@
 - 生信门户集合
 
   - [生信数据库](/toolsCollection/bio_databases)
-  - [生信论坛](/toolsCollection/bio_forum)
+  - [生信论坛](/toolsCollection/bio_forums)
 
 - 生信基础知识
 
@@ -11,7 +11,7 @@
 
 - 本站文章推送
 
-  - [Journal Club](/websiteArticles/journal_club)
+  - [每周文献](/websiteArticles/journal_club)
 
 
 <!-- - 速查指南 -->
