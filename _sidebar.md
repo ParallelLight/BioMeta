@@ -7,7 +7,7 @@
 
 - 生信基础知识
 
-  - [生信入门](/basicKonwledge/getting_start)
+  - [生信入门](/basicKnowledge/getting_start)
 
 - 本站文章推送
 
