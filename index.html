@@ -21,11 +21,11 @@
 </head>
 
 <body>
-  <div id="app">加载中...</div>
+  <div id="app">Loading to BioMeta</div>
   <script>
     window.$docsify = {
       repo: 'https://github.com/ParallelLight',
-      // loadNavbar: true,
+      loadNavbar: true,
       loadSidebar: true,
       subMaxLevel: 4,
       auto2top: true,
@@ -65,17 +65,17 @@
             dom.appendTo(dom.find('.content'), runTimeNode);
           });
 
-          // var footer = [
-          //   '<hr/>',
-          //   '<footer>',
-          //   '<span><a href="http://www.biometa.top">BioMeta</a> &copy;2022.</span>',
-          //   '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
-          //   '</footer>'
-          // ].join('');
+          var footer = [
+            '<hr/>',
+            '<footer>',
+            '<span><a href="http://www.biometa.top">BioMeta</a> &copy;2022.</span>',
+            '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
+            '</footer>'
+          ].join('');
 
-          // hook.afterEach(function (html) {
-          //   return html + footer;
-          // });
+          hook.afterEach(function (html) {
+            return html + footer;
+          });
         },
       ],
     };
@@ -93,7 +93,6 @@
     }
     setTimeout(change_search_plugin_order, 1);
   </script>
-
   <!-- zoom-image -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <!-- copy-code -->
