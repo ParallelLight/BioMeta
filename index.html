@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>BioMeta</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+  <style>
+    .sidebar {
+      padding: 0 0 0 0;
+    }
+
+    .app-name {
+      border-bottom: 1px solid rgb(238, 238, 238);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">加载中...</div>
+  <script>
+    window.$docsify = {
+      repo: 'https://github.com/ParallelLight',
+      // loadNavbar: true,
+      loadSidebar: true,
+      subMaxLevel: 4,
+      auto2top: true,
+      homepage: '_homepage.md',
+      logo: './BioMetaLogo.svg',
+      name: 'BioMeta',
+      themeColor: 'rgb(126, 195, 141)',
+      // autoHeader: true,
+      formatUpdated: '{YYYY}-{MM}-{DD}',
+      notFoundPage: true,
+      topMargin: 25,
+      search: {
+        placeholder: '🔍 搜索',
+        noData: 'No Results'
+      },
+      pagination: {
+        previousText: '上一节',
+        nextText: '下一节',
+        crossChapter: true,
+        crossChapterText: true,
+      },
+      count: {
+        countable: true,
+        fontsize: '1em',
+        color: 'rgb(90,90,90)',
+        language: 'chinese'
+      },
+      plugins: [
+        function (hook, vm) {
+          hook.mounted(function () {
+            // 添加网站运行时间
+            let dom = Docsify.dom;
+            let runTimeNode = dom.create('div');
+            runTimeNode.className = 'runtime';
+            runTimeNode.style =
+              'color: #8590a6; max-width: 80%; margin: 0 auto 20px; padding: 0 15px 0 15px;';
+            dom.appendTo(dom.find('.content'), runTimeNode);
+          });
+
+          // var footer = [
+          //   '<hr/>',
+          //   '<footer>',
+          //   '<span><a href="http://www.biometa.top">BioMeta</a> &copy;2022.</span>',
+          //   '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
+          //   '</footer>'
+          // ].join('');
+
+          // hook.afterEach(function (html) {
+          //   return html + footer;
+          // });
+        },
+      ],
+    };
+  </script>
+
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- 搜索 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- 图片缩放 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 代码复制 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- 分页 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- 代码高亮 -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+  <!-- 字数统计 -->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <!-- 评论系统 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+
+  <!-- 点击到达顶部 -->
+  <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+
+  <!-- searchInput -->
+  <script>
+    function change_search_plugin_order() {
+      let search_plugin = document.getElementsByClassName('search')[0];
+      let app_name = document.getElementsByClassName('app-name')[0];
+      search_plugin.parentNode.insertBefore(app_name, search_plugin);
+    }
+    setTimeout(change_search_plugin_order, 1);
+  </script>
+
+  <!-- gitalk -->
+  <script>
+    let props = {
+      clientID: 'bbbc485b7b4671a60109',
+      clientSecret: 'e186f06d1029ce43139c952008695dd43adb0514',
+      repo: 'BioMetaComments',
+      owner: 'ParallelLight',
+      admin: ['ParallelLight'],
+      distractionFreeMode: true,
+      // id: decodeURI(location.hash.split('?')[0]),
+    };
+    let gitalk = new Gitalk(props);
+    // 哈希路由切换时 重新加载Gitalk
+    // window.addEventListener('hashchange', onHashChange);
+    // function onHashChange() {
+    //   props.id = decodeURI(location.hash.split('?')[0]); //如果不切分，在docsify里面的各个段落都会生成新的评论issue
+    // }
+  </script>
+
+  <!-- toUpButton -->
+  <script>
+    addBackToTop({
+      diameter: 56,
+      backgroundColor: 'rgb(126, 195, 141)',
+      textColor: '#fff',
+    });
+  </script>
+
+  <!-- webSiteTime -->
+  <script>
+    function siteTime() {
+      setTimeout(siteTime, 1000);
+      let seconds = 1000;
+      let minutes = seconds * 60;
+      let hours = minutes * 60;
+      let days = hours * 24;
+      let today = new Date();
+      let todayYear = today.getFullYear();
+      let todayMonth = today.getMonth() + 1;
+      let todayDate = today.getDate();
+      let todayHour = today.getHours();
+      let todayMinute = today.getMinutes();
+      let todaySecond = today.getSeconds();
+
+      let t1 = Date.UTC(2022, 03, 21, 0, 0, 0);
+      let t2 = Date.UTC(
+        todayYear,
+        todayMonth,
+        todayDate,
+        todayHour,
+        todayMinute,
+        todaySecond
+      );
+      let diff = t2 - t1;
+      let diffDays = Math.floor(diff / days);
+      let diffHours = Math.floor((diff - diffDays * days) / hours);
+      let diffMinutes = Math.floor(
+        (diff - diffDays * days - diffHours * hours) / minutes
+      );
+      let diffSeconds = Math.floor(
+        (diff - diffDays * days - diffHours * hours - diffMinutes * minutes) /
+        seconds
+      );
+      Docsify.dom.find('.runtime').innerHTML =
+        'BioMeta已运行 ' +
+        diffDays +
+        ' 天 ' +
+        diffHours +
+        ' 小时 ' +
+        diffMinutes +
+        ' 分 ' +
+        diffSeconds +
+        ' 秒';
+    }
+    // 先让网页加载完，否则 Docsify.dom.find('.runtime') == null
+    setTimeout(siteTime, 500);
+  </script>
+</body>
+
+</html>
