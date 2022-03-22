@@ -7,7 +7,7 @@
 
 - 生信基础知识
 
-  - [单细胞](/collection2/test2_1)
+  - [生信入门](/basicKonwledge/getting_start)
 
 - 本站文章推送
 
