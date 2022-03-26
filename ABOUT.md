@@ -14,4 +14,8 @@ BioMeta是一个年轻、团结、可爱、专业的互联网科技与生信团�
 
 ## 致谢
 
-感谢各大开源社区所提供的资源。
+感谢各大开源社区所提供的资源，感谢各位朋友的关注，Thanks sincerely！
+
+<div  align="center">
+    <a href='https://clustrmaps.com/site/1bnit'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=600&t=tt&d=4c55vNdpH1cXzSYqBUYqoYDEWU1ioCchpuVKtaRJeiU&co=7fbeea'/></a>
+</div>
