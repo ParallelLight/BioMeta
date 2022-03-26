@@ -19,6 +19,15 @@
       border-bottom: 1px solid rgb(238, 238, 238);
     }
   </style>
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?5149f0a3f26bca92fd1fb82e2179958c";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 </head>
 
 <body>
@@ -83,8 +92,8 @@
                 Authorization: `${client_id}:${client_secret}`,
               },
             }).then((response) => {
-                return response.json();
-              })
+              return response.json();
+            })
               .then((commits) => {
                 let modified = commits[0]['commit']['committer'][
                   'date'
@@ -93,7 +102,7 @@
                   '更新日期: ' + modified;
               });
 
-              return (
+            return (
               '<span id="last-modified">更新日期: 获取中</span>' +
               '\n' +
               html
