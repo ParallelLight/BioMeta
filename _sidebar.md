@@ -8,7 +8,9 @@
 
 - 生信基础知识
 
-  - [生信入门](/basicKnowledge/getting_start)
+  <!-- - [生信入门](/basicKnowledge/getting_start) -->
+  - [函数分享](/basicKnowledge/function_sharing)
+  - [实验技术](/basicKnowledge/experimental_technology)
 
 - 本站文章推送
 
