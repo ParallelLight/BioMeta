@@ -7,4 +7,4 @@
 
 ### 2022-03-21
 
-> 网站部署完成（https://biometa.top/）
+> 网站部署完成（[https://biometa.top/](https://biometa.top/)）

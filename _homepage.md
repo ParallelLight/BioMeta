@@ -2,7 +2,8 @@
 
 <div align="center">
 
-# Go For BioMeta
+<text style="font-size: 30px">Go For BioMeta</text>
+
 二十一世纪是生物科学的世纪，也是互联网与人工智能的时代
 
 [![Badge](https://img.shields.io/badge/link-BioMeta-%23F5AE29.svg)](https://github.com/ParallelLight/BioMeta)
@@ -29,3 +30,6 @@
     <img src="https://cdn.jsdelivr.net/gh/ParallelLight/personal-picture/202203191557329.jpg" />
 </div>
 
+<!-- ```pdf
+	https://www.biorxiv.org/content/10.1101/2020.07.21.214387v1.full.pdf
+``` -->
