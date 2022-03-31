@@ -25,5 +25,7 @@
 浏览统计
 
 <div  align="center">
-    <a href='https://clustrmaps.com/site/1bnit'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=600&t=tt&d=4c55vNdpH1cXzSYqBUYqoYDEWU1ioCchpuVKtaRJeiU&co=7fbeea'/></a>
+    <a href='https://clustrmaps.com/site/1bnit'  title='Visit tracker'>
+        <img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=600&t=tt&d=4c55vNdpH1cXzSYqBUYqoYDEWU1ioCchpuVKtaRJeiU&co=7fbeea'/>
+    </a>
 </div>
