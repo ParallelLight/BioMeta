@@ -1,4 +1,4 @@
-- [**BioMeta**](/)
+- [**BioMeta**](/README)
 
 - 生信门户集合
 
@@ -22,3 +22,4 @@
 <!-- - [**贡献文档与代码**](CONTRIBUTING.md) -->
 
 - [**关于&致谢**](ABOUT.md)
+- [**ChangeLog**](ChangeLog.md)

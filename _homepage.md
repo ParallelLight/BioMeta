@@ -1,10 +1,19 @@
 <!-- # BioMeta -->
 
+<div align="center">
+
+# Go For BioMeta
+二十一世纪是生物科学的世纪，也是互联网与人工智能的时代
+
+[![Badge](https://img.shields.io/badge/link-BioMeta-%23F5AE29.svg)](https://github.com/ParallelLight/BioMeta)
+[![Lines](https://img.shields.io/tokei/lines/github/ParallelLight/BioMeta)](https://img.shields.io/tokei/lines/github/ParallelLight/BioMeta)
+[![lastcommit](https://img.shields.io/github/last-commit/ParallelLight/BioMeta)](https://img.shields.io/github/last-commit/ParallelLight/BioMeta)
+
+</div>
+
 > Welcome to BioMeta!
 
 欢迎访问**BioMeta**！
-
-二十一世纪是生物科学的世纪，也是互联网与人工智能的时代。
 
 ## BioMeta简介
 
@@ -16,8 +25,7 @@
 
 期待更多的小伙伴一起学习生信。
 
-<!-- <div  align="center">
-    <img src="https://cdn.jsdelivr.net/gh/ParallelLight/personal-picture/202203191557329.jpg" width = "600" height = "300" alt="图片名称" align=center />
-</div> -->
+<div align="center">
+    <img src="https://cdn.jsdelivr.net/gh/ParallelLight/personal-picture/202203191557329.jpg" />
+</div>
 
-![cover](https://cdn.jsdelivr.net/gh/ParallelLight/personal-picture/202203191557329.jpg)
