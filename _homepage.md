@@ -2,6 +2,8 @@
 
 <div align="center">
 
+<img width="150" src="BioMetaLogo.png" />
+
 <text style="font-size: 30px">Go For BioMeta</text>
 
 二十一世纪是生物科学的世纪，也是互联网与人工智能的时代
@@ -11,10 +13,10 @@
 [![Lastcommit](https://img.shields.io/github/last-commit/ParallelLight/BioMeta)](https://img.shields.io/github/last-commit/ParallelLight/BioMeta)
 
 [![Github](https://img.shields.io/badge/Github-ParallelLight-%230D1117.svg)](https://github.com/ParallelLight)
-[![Zhihu](https://img.shields.io/badge/Zhihu-知乎-%230066FF.svg)](https://www.zhihu.com/people/parallellight)
+[![Zhihu](https://img.shields.io/badge/ZhiHu-知乎-%230066FF.svg)](https://www.zhihu.com/people/parallellight)
 [![CSDN](https://img.shields.io/badge/CSDN-博客-%23FC5531.svg)](https://blog.csdn.net/weixin_44421798)
 [![WeChat](https://img.shields.io/badge/WeChat-微信公众号-%2307C160.svg)](https://mp.weixin.qq.com/s/DPMcvwlsQyWs8s2YCgHgUg)
-[![Bilibili](https://img.shields.io/badge/Bilibili-哔哩哔哩-%2300A1D6.svg)](https://space.bilibili.com/252451772)
+[![Bilibili](https://img.shields.io/badge/BiLiBiLi-哔哩哔哩-%2300A1D6.svg)](https://space.bilibili.com/252451772)
 
 </div>
 
