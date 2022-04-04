@@ -15,7 +15,7 @@
 [![Github](https://img.shields.io/badge/Github-ParallelLight-%230D1117.svg)](https://github.com/ParallelLight)
 [![Zhihu](https://img.shields.io/badge/ZhiHu-知乎-%230066FF.svg)](https://www.zhihu.com/people/parallellight)
 [![CSDN](https://img.shields.io/badge/CSDN-博客-%23FC5531.svg)](https://blog.csdn.net/weixin_44421798)
-[![WeChat](https://img.shields.io/badge/WeChat-微信公众号-%2307C160.svg)](https://mp.weixin.qq.com/s/DPMcvwlsQyWs8s2YCgHgUg)
+[![WeChat](https://img.shields.io/badge/WeChat-微信公众号-%2307C160.svg)](https://mp.weixin.qq.com/s/VvrmP9f4fkyBBGHmRb9p5Q)
 [![Bilibili](https://img.shields.io/badge/BiLiBiLi-哔哩哔哩-%2300A1D6.svg)](https://space.bilibili.com/252451772)
 
 </div>
