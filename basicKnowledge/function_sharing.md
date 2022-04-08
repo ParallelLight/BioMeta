@@ -4,7 +4,7 @@
 
 ## Python
 
-- [Pandas.DataFrame](/basicKnowledge/pythonFold/python.pandas.dataframe)
+- [Pandas.DataFrame](/pythonFold/python.pandas.dataframe)
 
 ## R
 
